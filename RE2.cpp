@@ -8,7 +8,7 @@ int sum(int n) // sum of n numbers
 	return n+sum(n-1);
 }
 
-int fact(int n)
+int fact(int n) // Factorial of n
 {
 	if(n==0) return 1;
 	else
